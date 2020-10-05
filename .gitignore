@@ -1,0 +1,19 @@
+.idea/
+.vscode
+.vs/
+*.user
+
+# Build results
+[Bb]in/
+[Dd]ebug/
+[Aa]rtifacts/
+[Oo]bj/
+[Tt]est[Rr]esult/
+[Tt]emp
+
+# misc
+*~
+*.swp
+*.sdf
+*.orig
+Thumbs.db
