@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.AzureAppendBlob", "Serilog.Sinks.AzureAppendBlob\Serilog.Sinks.AzureAppendBlob.csproj", "{F16915DF-A76A-4CB9-B30F-30A9AA239D75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "Tests\IntegrationTests\IntegrationTests.csproj", "{1DBA6D0C-E888-49D0-A4C4-B547925D2C20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "Tests\UnitTests\UnitTests.csproj", "{9BEBFEA1-B2B6-4782-9A55-EC2A1B74EDAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1792EDBD-FFA5-402D-887A-07586A930DF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F16915DF-A76A-4CB9-B30F-30A9AA239D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F16915DF-A76A-4CB9-B30F-30A9AA239D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F16915DF-A76A-4CB9-B30F-30A9AA239D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F16915DF-A76A-4CB9-B30F-30A9AA239D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DBA6D0C-E888-49D0-A4C4-B547925D2C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DBA6D0C-E888-49D0-A4C4-B547925D2C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DBA6D0C-E888-49D0-A4C4-B547925D2C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DBA6D0C-E888-49D0-A4C4-B547925D2C20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BEBFEA1-B2B6-4782-9A55-EC2A1B74EDAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BEBFEA1-B2B6-4782-9A55-EC2A1B74EDAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BEBFEA1-B2B6-4782-9A55-EC2A1B74EDAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BEBFEA1-B2B6-4782-9A55-EC2A1B74EDAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DBA6D0C-E888-49D0-A4C4-B547925D2C20} = {1792EDBD-FFA5-402D-887A-07586A930DF5}
+		{9BEBFEA1-B2B6-4782-9A55-EC2A1B74EDAD} = {1792EDBD-FFA5-402D-887A-07586A930DF5}
+	EndGlobalSection
+EndGlobal
