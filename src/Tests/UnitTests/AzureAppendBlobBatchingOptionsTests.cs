@@ -14,7 +14,7 @@ namespace UnitTests
 
             sut.BatchSizeLimit.Should().Be(1000);
             sut.Period.Should().Be(TimeSpan.FromSeconds(15));
-            sut.QueueLimit.Should().Be(100000);
+            sut.QueueLimit.Should().Be(10000);
         }
 
         [Theory]

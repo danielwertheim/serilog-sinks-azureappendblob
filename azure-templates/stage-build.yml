@@ -14,12 +14,6 @@ stages:
         action: 'Run a Docker Compose command'
         dockerComposeCommand: 'up -d'
 
-    - task: UseDotNet@2
-      displayName: 'Use .NET Core 3.1.x'
-      inputs:
-        version: '3.1.x'
-        packageType: sdk
-
     - task: DotNetCoreCLI@2
       displayName: 'Build Solution'
       inputs:
