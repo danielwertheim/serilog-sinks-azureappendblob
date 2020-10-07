@@ -1,0 +1,15 @@
+<Project>
+  <PropertyGroup>
+    <Version>0.0.0</Version>
+    <Company>danielwertheim</Company>
+    <Authors>danielwertheim</Authors>
+    <Copyright>Copyright © danielwertheim</Copyright>
+    <LangVersion>latest</LangVersion>
+    <RepositoryUrl>https://github.com/danielwertheim/serilog-sinks-azureappendblob</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/danielwertheim/serilog-sinks-azureappendblob</PackageProjectUrl>
+    <PackageReleaseNotes>https://github.com/danielwertheim/serilog-sinks-azureappendblob/releases</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+</Project>
