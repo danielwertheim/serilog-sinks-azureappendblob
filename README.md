@@ -1,5 +1,5 @@
 # Serilog-Sinks-AzureAppendBlob
-Serilog sink that logs to append blobs in an Azure Storage Account. This is not an offican sink, but a community driven one. This also has nothing todo with the already existing sink for Azure blobs [serilog-sinks-azureblobstorage](https://github.com/chriswill/serilog-sinks-azureblobstorage) which I've previously used myself with success.
+Serilog sink that logs to append blobs in an Azure Storage Account. This is not an offical sink, but a community driven one. This also has nothing todo with the already existing sink for Azure blobs [serilog-sinks-azureblobstorage](https://github.com/chriswill/serilog-sinks-azureblobstorage) which I've previously used myself with success.
 
 It currently targets `netstandard2.0` and `netstandard2.1`. Feel free to raise an issue if that is not enough.
 
