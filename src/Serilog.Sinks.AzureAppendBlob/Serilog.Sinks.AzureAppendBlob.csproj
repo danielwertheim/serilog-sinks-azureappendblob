@@ -4,6 +4,7 @@
         <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
         <PackageTags>Serilog Sink Sinks Azure AppendBlob Blob</PackageTags>
         <Description>Provides a batching Sink that writes to Azure Blob Storage using append blobs.</Description>
+        <PackageIconUrl>https://serilog.net/images/serilog-sink-nuget.png</PackageIconUrl>
     </PropertyGroup>
 
     <ItemGroup>
